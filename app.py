@@ -81,4 +81,7 @@ interface = gr.Interface(
     description="Enter a topic, select difficulty and number of questions."
 )
 
-interface.launch(share=True)
+interface.launch(
+    server_name="0.0.0.0",
+    server_port=7860
+)
