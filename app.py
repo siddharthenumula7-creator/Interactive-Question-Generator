@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1FCvt_HhKVs_jtw_elbe6DUh_hDGL5yew
 """
 
-!pip install -q google-genai flask pyngrok
+
 import gradio as gr
 from google import genai
 from google.colab import userdata
